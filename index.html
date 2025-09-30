@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Shopping Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+    }
+    header {
+      background: #0073e6;
+      color: white;
+      padding: 15px;
+    }
+    h1 {
+      margin: 0;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+    .product {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin: 10px;
+      width: 250px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    .product a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #0073e6;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .product a:hover {
+      background: #005bb5;
+    }
+    footer {
+      background: #222;
+      color: #bbb;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Shopping Site</h1>
+    <p>Best Products Coming Soon</p>
+  </header>
+
+  <div class="products">
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150" alt="Product 1">
+      <h2>Product 1</h2>
+      <p>Sample product description.</p>
+      <a href="https://www.amazon.in" target="_blank">View on Amazon</a>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/200x150" alt="Product 2">
+      <h2>Product 2</h2>
+      <p>Another sample product description.</p>
+      <a href="https://www.flipkart.com" target="_blank">View on Flipkart</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 My Shopping Site | This is a demo site for affiliate application</p>
+  </footer>
+</body>
+</html>
